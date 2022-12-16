@@ -34,6 +34,6 @@ if [ "$err" == "1" ]; then
 elif [ "$err" == "0" ]; then
   echo "Test OK"
 else
-  echo "Test FAILED"
+  echo "Test FAIL"
   echo "Error=$err"
 fi
